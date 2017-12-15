@@ -19,7 +19,7 @@ var doubleArray = function(arr) {
  *
  * @param {Array}
  * @param {Array}
- * @return {Bool}
+ * @return {Number}
  */
 var sumArrays = function (arr1, arr2) {
   var sum = 0;
@@ -45,7 +45,7 @@ var stringCount = function (str) {
  *
  * Takes in an array and returns the length of the array.
  *
- * @param {String}
+ * @param {Array}
  * @return {Number}
  */
 var arrayLength = function (arr) {
@@ -71,7 +71,7 @@ var countAll = function (arr) {
  *
  * Takes in an array of strings and returns an array of string lengths.
  *
- * @param {Array}
+ * @param {String}
  * @return {Array}
  */
 var countStrings = function (arr) {
@@ -87,7 +87,7 @@ var countStrings = function (arr) {
  *
  * Takes in an array of strings and returns the sum of all string lengths.
  *
- * @param {String}
+ * @param {Array}
  * @return {Number}
  */
 var countAllStrings = function (arr) {
@@ -136,7 +136,7 @@ var objectSize = function (obj) {
  * Takes in a number and fills an array with that number of zeroes.
  *
  * @param {Number}
- * @return {Zero}
+ * @return {Array}
  */
 var createZeroFilledArray = function (num) {
   var result = [];
@@ -180,7 +180,7 @@ var splitString = function (str) {
  *
  * Takes in an array of strings and returns the length of the last string.
  *
- * @param {String}
+ * @param {Array}
  * @return {Number}
  */
 var lengthOfLast = function(arr) {
@@ -209,7 +209,7 @@ var sumBelowTen = function (arr) {
  *
  * Takes in an array of strings and returns the amount of elements that have more than ten letters.
  *
- * @param {String}
+ * @param {Array}
  * @return {Number}
  */
 var moreThanTenLetters = function(arr) {
@@ -353,7 +353,7 @@ var makeObject = function(str1, str2) {
  *
  * @param {String}
  * @param {String}
- * @return {Bool}
+ * @return {Object}
  */
 var makeObjectReverse = function(str1, str2) {
   var result = {};
@@ -600,7 +600,7 @@ var charCountMap = function (arr) {
  * takes in an array of strings and returns an object with the string as the key and the number of occurences as the value.
  *
  * @param {String}
- * @return {Bool}
+ * @return {Object}
  */
 var frequencyMap = function (str) {
  // var count = 1
@@ -621,7 +621,7 @@ var frequencyMap = function (str) {
  * the first element of the tuples and values are second element of the tuples.
  *
  * @param {String}
- * @return {Bool}
+ * @return {Object}
  */
 var tupleConvertToObject = function (arr) {
   var result = {} 
